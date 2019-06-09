@@ -1,3 +1,6 @@
+// I did not write this H file. It was written by my professor and given to me to complete an assignment
+// all credit goes to Adam Carter https://github.com/acarteas
+
 #ifndef STRINGSPLITTER_H
 #define STRINGSPLITTER_H
 
