@@ -3,7 +3,6 @@
 #include <sstream>
 
 #include "Code.h"
-#include "Decode.h"
 
 using namespace std;
 
@@ -19,7 +18,7 @@ int main(void)
 	// ask the user to encode or decode
 	while (toupper(encode_decode) != 'E' && toupper(encode_decode) != 'D')
 	{
-		cout << "(E)ncode or (D)ecode file (decode not implemented): ";
+		cout << "Enter (E) to encode a file: ";
 		cin.get(encode_decode);
 		cin.ignore();
 	}
